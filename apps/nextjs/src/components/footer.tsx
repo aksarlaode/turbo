@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
-
-import { Icons } from "@acme/ui/icons";
+import { Icons } from "@aksar/ui/icons";
 
 import { siteConfig } from "~/app/config";
 

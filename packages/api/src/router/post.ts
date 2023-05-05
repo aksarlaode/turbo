@@ -1,6 +1,5 @@
+import { genId } from "@aksar/db";
 import { z } from "zod";
-
-import { genId } from "@acme/db";
 
 import { createTRPCRouter, protectedProcedure, publicProcedure } from "../trpc";
 

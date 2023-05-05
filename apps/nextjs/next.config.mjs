@@ -1,16 +1,16 @@
-import "./src/env.mjs";
-import withMdx from "@next/mdx";
+/*import "./src/env.mjs";
+import withMdx from "@next/mdx";*/
 
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
   /** Enables hot reloading for local packages without a build step */
-  transpilePackages: ["@acme/api", "@acme/db"],
+  transpilePackages: ["@aksar/api", "@aksar/db"],
   pageExtensions: ["ts", "tsx", "mdx"],
 
   experimental: {
     appDir: true,
-    mdxRs: true,
+    //mdxRs: true,
     typedRoutes: true,
   },
   /** We already do linting and typechecking as separate tasks in CI */
@@ -18,4 +18,5 @@ const config = {
   typescript: { ignoreBuildErrors: true },
 };
 
-export default withMdx()(config);
+//export default withMdx()(config);
+export default config;

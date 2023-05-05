@@ -1,6 +1,5 @@
+import { Icons } from "@aksar/ui/icons";
 import { Component, Globe } from "lucide-react";
-
-import { Icons } from "@acme/ui/icons";
 
 export const siteConfig = {
   github: "https://github.com/juliusmarminge/acme-corp",

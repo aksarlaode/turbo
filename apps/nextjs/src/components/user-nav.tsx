@@ -1,16 +1,6 @@
 import Link from "next/link";
-import { currentUser } from "@clerk/nextjs/app-beta";
-import {
-  CreditCard,
-  LogIn,
-  LogOut,
-  PlusCircle,
-  Settings,
-  User,
-} from "lucide-react";
-
-import { Avatar, AvatarFallback, AvatarImage } from "@acme/ui/avatar";
-import { Button } from "@acme/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@aksar/ui/avatar";
+import { Button } from "@aksar/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,7 +10,16 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from "@acme/ui/dropdown-menu";
+} from "@aksar/ui/dropdown-menu";
+import { currentUser } from "@clerk/nextjs/app-beta";
+import {
+  CreditCard,
+  LogIn,
+  LogOut,
+  PlusCircle,
+  Settings,
+  User,
+} from "lucide-react";
 
 export async function UserNav() {
   const user = await currentUser();

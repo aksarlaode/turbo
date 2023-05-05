@@ -1,7 +1,6 @@
 import { type ReactNode } from "react";
 import Link from "next/link";
-
-import { Icons } from "@acme/ui/icons";
+import { Icons } from "@aksar/ui/icons";
 
 export function AuthLayout(props: { children: ReactNode }) {
   return (

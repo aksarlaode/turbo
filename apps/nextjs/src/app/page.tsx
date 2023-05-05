@@ -1,16 +1,15 @@
 import { Suspense } from "react";
-import Balancer from "react-wrap-balancer";
-
-import { cn } from "@acme/ui";
-import { buttonVariants } from "@acme/ui/button";
+import { cn } from "@aksar/ui";
+import { buttonVariants } from "@aksar/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@acme/ui/card";
-import { Icons } from "@acme/ui/icons";
+} from "@aksar/ui/card";
+import { Icons } from "@aksar/ui/icons";
+import Balancer from "react-wrap-balancer";
 
 import { MobileDropdown } from "~/components/mobile-nav";
 import { UserNav } from "~/components/user-nav";

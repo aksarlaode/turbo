@@ -1,11 +1,9 @@
 "use client";
 
 import * as React from "react";
-import { Check, ChevronsUpDown, PlusCircle } from "lucide-react";
-
-import { cn } from "@acme/ui";
-import { Avatar, AvatarFallback, AvatarImage } from "@acme/ui/avatar";
-import { Button } from "@acme/ui/button";
+import { cn } from "@aksar/ui";
+import { Avatar, AvatarFallback, AvatarImage } from "@aksar/ui/avatar";
+import { Button } from "@aksar/ui/button";
 import {
   Command,
   CommandEmpty,
@@ -14,7 +12,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@acme/ui/command";
+} from "@aksar/ui/command";
 import {
   Dialog,
   DialogContent,
@@ -23,17 +21,18 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@acme/ui/dialog";
-import { Input } from "@acme/ui/input";
-import { Label } from "@acme/ui/label";
-import { Popover, PopoverContent, PopoverTrigger } from "@acme/ui/popover";
+} from "@aksar/ui/dialog";
+import { Input } from "@aksar/ui/input";
+import { Label } from "@aksar/ui/label";
+import { Popover, PopoverContent, PopoverTrigger } from "@aksar/ui/popover";
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@acme/ui/select";
+} from "@aksar/ui/select";
+import { Check, ChevronsUpDown, PlusCircle } from "lucide-react";
 
 const groups = [
   {

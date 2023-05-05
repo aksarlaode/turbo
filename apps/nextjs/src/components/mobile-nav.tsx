@@ -2,11 +2,10 @@
 
 import * as React from "react";
 import Link from "next/link";
-
-import { Button } from "@acme/ui/button";
-import { Icons } from "@acme/ui/icons";
-import { Popover, PopoverContent, PopoverTrigger } from "@acme/ui/popover";
-import { ScrollArea } from "@acme/ui/scroll-area";
+import { Button } from "@aksar/ui/button";
+import { Icons } from "@aksar/ui/icons";
+import { Popover, PopoverContent, PopoverTrigger } from "@aksar/ui/popover";
+import { ScrollArea } from "@aksar/ui/scroll-area";
 
 import { navItems } from "~/app/config";
 import { Search } from "~/app/dashboard/components/search";

@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
+import { Icons } from "@aksar/ui/icons";
 import { useClerk } from "@clerk/nextjs/app-beta/client";
 import type { HandleOAuthCallbackParams } from "@clerk/types";
-
-import { Icons } from "@acme/ui/icons";
 
 export const runtime = "edge";
 
