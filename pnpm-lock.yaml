@@ -337,8 +337,8 @@ importers:
         specifier: ^4.13.0
         version: 4.13.0
       prisma-kysely:
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^1.2.1
+        version: 1.2.1
       tsx:
         specifier: ^3.12.6
         version: 3.12.6
@@ -2196,7 +2196,7 @@ packages:
       md5-file: 3.2.3
       md5hex: 1.0.0
       minipass: 3.1.6
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       node-forge: 1.3.1
       npm-package-arg: 7.0.0
       ora: 3.4.0
@@ -2321,7 +2321,7 @@ packages:
       fs-extra: 9.0.0
       is-docker: 2.2.1
       is-wsl: 2.2.0
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       open: 8.4.0
       resolve-from: 5.0.0
       semver: 7.3.2
@@ -2461,7 +2461,7 @@ packages:
       '@segment/loosely-validate-event': 2.0.0
       fetch-retry: 4.1.1
       md5: 2.3.0
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       remove-trailing-slash: 0.1.1
       uuid: 8.3.2
     transitivePeerDependencies:
@@ -3855,7 +3855,7 @@ packages:
       chalk: 4.1.2
       find-up: 5.0.0
       mime: 2.6.0
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       open: 6.4.0
       ora: 5.4.1
       semver: 6.3.0
@@ -6452,7 +6452,7 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.11.0
-      resolve: 1.22.1
+      resolve: 1.22.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -6531,7 +6531,7 @@ packages:
       is-glob: 4.0.3
       minimatch: 3.1.2
       object.values: 1.1.6
-      resolve: 1.22.1
+      resolve: 1.22.2
       semver: 6.3.0
       tsconfig-paths: 3.14.1
     transitivePeerDependencies:
@@ -9263,7 +9263,7 @@ packages:
       metro-transform-plugins: 0.73.9
       metro-transform-worker: 0.73.9
       mime-types: 2.1.35
-      node-fetch: 2.6.7
+      node-fetch: 2.6.9
       nullthrows: 1.1.1
       rimraf: 3.0.2
       serialize-error: 2.1.0
@@ -10474,8 +10474,8 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /prisma-kysely@1.2.0:
-    resolution: {integrity: sha512-cblOr1h+a+287hZzNrQ5WccmmtxOCbAIQAi1aP5TUw9prBYpSk4kxWkB34OOw/q2LSSoujCouPn6K1bWMFpZIg==}
+  /prisma-kysely@1.2.1:
+    resolution: {integrity: sha512-S5pDWxfQezAokjan9A1/f6sQMWMy1KWod0L3XuTEim705qNd2CCiQtabuVJhuKK05x0w/zqcbjeihRQVc+iGWA==}
     hasBin: true
     dependencies:
       '@prisma/generator-helper': 4.13.0
@@ -11226,6 +11226,7 @@ packages:
       is-core-module: 2.11.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    dev: true
 
   /resolve@1.22.2:
     resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
