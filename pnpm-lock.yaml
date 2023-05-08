@@ -89,8 +89,8 @@ importers:
         specifier: ~3.20.0
         version: 3.20.0(react-native@0.71.7)(react@18.2.0)
       superjson:
-        specifier: 1.9.1
-        version: 1.9.1
+        specifier: 1.12.3
+        version: 1.12.3
     devDependencies:
       '@aksar/api':
         specifier: '*'
@@ -156,8 +156,8 @@ importers:
         specifier: ^4.17.1
         version: 4.17.1(next@13.4.1)(react-dom@18.2.0)(react@18.2.0)
       '@t3-oss/env-nextjs':
-        specifier: ^0.2.2
-        version: 0.2.2(zod@3.21.4)
+        specifier: ^0.3.1
+        version: 0.3.1(typescript@5.1.0-dev.20230508)(zod@3.21.4)
       '@tanstack/react-query':
         specifier: ^4.29.5
         version: 4.29.5(react-dom@18.2.0)(react-native@0.71.7)(react@18.2.0)
@@ -201,8 +201,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0(prop-types@15.8.1)(react-dom@18.2.0)(react@18.2.0)
       superjson:
-        specifier: 1.9.1
-        version: 1.9.1
+        specifier: 1.12.3
+        version: 1.12.3
       tailwindcss-animate:
         specifier: ^1.0.5
         version: 1.0.5(tailwindcss@3.3.2)
@@ -256,8 +256,8 @@ importers:
         specifier: ^10.21.2
         version: 10.21.2
       superjson:
-        specifier: 1.9.1
-        version: 1.9.1
+        specifier: 1.12.3
+        version: 1.12.3
       zod:
         specifier: ^3.21.4
         version: 3.21.4
@@ -385,8 +385,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0(@types/react@18.2.6)(react-dom@18.2.0)(react@18.2.0)
       lucide-react:
-        specifier: ^0.183.0
-        version: 0.183.0(react@18.2.0)
+        specifier: ^0.214.0
+        version: 0.214.0(react@18.2.0)
       tailwind-merge:
         specifier: ^1.12.0
         version: 1.12.0
@@ -4065,20 +4065,24 @@ packages:
       defer-to-connect: 1.1.3
     dev: false
 
-  /@t3-oss/env-core@0.2.2(zod@3.21.4):
-    resolution: {integrity: sha512-Jiuph14/L3L9EDaU0O0YiLeaKUcWA9c3mWYuKem8+L64i3Iwz+IbKdl5Jp4cx+JbOsS/aptwGZplnxSHhm2gMQ==}
+  /@t3-oss/env-core@0.3.1(typescript@5.1.0-dev.20230508)(zod@3.21.4):
+    resolution: {integrity: sha512-iEnBuWeSjzqQLDTUw7H+YhstV4OZrGXTkQGL6ZOMxZQoCmwGX7GVS+1KCd5RvCzOtrIAD9jeOItSWNjC7sG4Sg==}
     peerDependencies:
+      typescript: '>=4.7.2'
       zod: ^3.0.0
     dependencies:
+      typescript: 5.1.0-dev.20230508
       zod: 3.21.4
     dev: false
 
-  /@t3-oss/env-nextjs@0.2.2(zod@3.21.4):
-    resolution: {integrity: sha512-9LnVpTkf/8WkggyVN6Liz9Ma9a7fLzV00b5BngWj3HI3iWDfddsWaqCf/H0f46Bgu29NubP3Bwajf1JieVrxFA==}
+  /@t3-oss/env-nextjs@0.3.1(typescript@5.1.0-dev.20230508)(zod@3.21.4):
+    resolution: {integrity: sha512-W1OgOn5xtpdEGraAQesyLzO2aNLRfSJEyK6qjQFfEUnrPbkvB+WxABX2bPMqfn4KJQ8pziLCSdBFiUN8OagqAg==}
     peerDependencies:
+      typescript: '>=4.7.2'
       zod: ^3.0.0
     dependencies:
-      '@t3-oss/env-core': 0.2.2(zod@3.21.4)
+      '@t3-oss/env-core': 0.3.1(typescript@5.1.0-dev.20230508)(zod@3.21.4)
+      typescript: 5.1.0-dev.20230508
       zod: 3.21.4
     dev: false
 
@@ -8654,8 +8658,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lucide-react@0.183.0(react@18.2.0):
-    resolution: {integrity: sha512-oYKPEqrMXM+Lovi2a1kqxk9e6QC5d0t07dTYo9Mu/g5Malu66nb/UqxO/jKoer3Z/El8jz7l088JBt34f3lgOA==}
+  /lucide-react@0.214.0(react@18.2.0):
+    resolution: {integrity: sha512-/vRi1wnFV2lqyIIkghQ3dDLu0eA9zykRQN9GZBwydzv+kB/2Q3S4X6OYB+aRqLXwl438vfVBqyYov2z0LJeoqA==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -11933,8 +11937,8 @@ packages:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
     dev: false
 
-  /superjson@1.9.1:
-    resolution: {integrity: sha512-oT3HA2nPKlU1+5taFgz/HDy+GEaY+CWEbLzaRJVD4gZ7zMVVC4GDNFdgvAZt6/VuIk6D2R7RtPAiCHwmdzlMmg==}
+  /superjson@1.12.3:
+    resolution: {integrity: sha512-0j+U70KUtP8+roVPbwfqkyQI7lBt7ETnuA7KXbTDX3mCKiD/4fXs2ldKSMdt0MCfpTwiMxo20yFU3vu6ewETpQ==}
     engines: {node: '>=10'}
     dependencies:
       copy-anything: 3.0.3
