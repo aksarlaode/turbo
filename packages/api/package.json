@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@aksar/db": "^0.1.0",
-    "@clerk/nextjs": "^4.16.4",
+    "@clerk/nextjs": "^4.17.1",
     "@trpc/client": "^10.21.2",
     "@trpc/server": "^10.21.2",
     "superjson": "1.9.1",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@aksar/eslint-config": "^0.1.0",
-    "eslint": "^8.39.0",
+    "eslint": "^8.40.0",
     "typescript": "^5.1.0-dev.20230508"
   }
 }
