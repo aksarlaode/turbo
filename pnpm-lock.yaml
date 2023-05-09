@@ -153,8 +153,8 @@ importers:
         specifier: ^0.1.0
         version: link:../../packages/ui
       '@clerk/nextjs':
-        specifier: ^4.17.1
-        version: 4.17.1(next@13.4.1)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.17.3
+        version: 4.17.3(next@13.4.1)(react-dom@18.2.0)(react@18.2.0)
       '@t3-oss/env-nextjs':
         specifier: ^0.3.1
         version: 0.3.1(typescript@5.1.0-dev.20230508)(zod@3.21.4)
@@ -247,8 +247,8 @@ importers:
         specifier: ^0.1.0
         version: link:../db
       '@clerk/nextjs':
-        specifier: ^4.17.1
-        version: 4.17.1(next@13.4.1)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.17.3
+        version: 4.17.3(next@13.4.1)(react-dom@18.2.0)(react@18.2.0)
       '@trpc/client':
         specifier: ^10.25.0
         version: 10.25.0(@trpc/server@10.25.0)
@@ -1845,8 +1845,8 @@ packages:
       tslib: 2.4.1
     dev: false
 
-  /@clerk/nextjs@4.17.1(next@13.4.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-v6UPYUkwktUmZT01nJFWQvrWSyVJx6CYa/KVHo6gmSTyUFX7p7Tpfoknq1VCvqp6DCHdbJC1uHbXmjUd4AhwBQ==}
+  /@clerk/nextjs@4.17.3(next@13.4.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-H6Yi9GB9odTSw5KnZjO7mtLAjuaFuBN72kUDhnjTdIQWqHL0I1+Ut+jWAZTNf2w/ocRlpuw2BxNBlcAus5Bg+A==}
     engines: {node: '>=14'}
     peerDependencies:
       next: '>=10'
