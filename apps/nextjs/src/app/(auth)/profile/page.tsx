@@ -1,6 +1,6 @@
 import { UserProfile } from "@clerk/nextjs/app-beta";
 
-export const runtime = "edge";
+//export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export default function ProfilePage() {

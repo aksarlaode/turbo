@@ -5,7 +5,7 @@ import { Icons } from "@aksar/ui/icons";
 import { useClerk } from "@clerk/nextjs/app-beta/client";
 import type { HandleOAuthCallbackParams } from "@clerk/types";
 
-export const runtime = "edge";
+//export const runtime = "edge";
 
 export default function SSOCallback(props: {
   searchParams: HandleOAuthCallbackParams;
