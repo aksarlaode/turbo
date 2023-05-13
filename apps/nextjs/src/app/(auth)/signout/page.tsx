@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@aksar/ui/button";
 import { useClerk } from "@clerk/nextjs";
 
-export const runtime = "edge";
+// export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
 export default function AuthenticationPage() {
