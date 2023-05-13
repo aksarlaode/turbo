@@ -1,3 +1,4 @@
+import { type Route } from "next";
 import { Icons } from "@aksar/ui/icons";
 import { Component, Globe } from "lucide-react";
 
@@ -23,7 +24,7 @@ export const navItems = [
     href: "/dashboard",
     title: "Settings",
   },
-];
+] satisfies { href: Route; title: string }[];
 
 export const marketingFeatures = [
   {

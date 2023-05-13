@@ -155,6 +155,9 @@ importers:
       '@clerk/nextjs':
         specifier: ^4.17.3
         version: 4.17.3(next@13.4.2)(react-dom@18.2.0)(react@18.2.0)
+      '@next/mdx':
+        specifier: 13.4.2-canary.5
+        version: 13.4.2-canary.5
       '@t3-oss/env-nextjs':
         specifier: ^0.3.1
         version: 0.3.1(typescript@5.1.0-dev.20230513)(zod@3.21.4)
@@ -213,6 +216,9 @@ importers:
       '@aksar/eslint-config':
         specifier: ^0.1.0
         version: link:../../packages/config/eslint
+      '@types/mdx':
+        specifier: ^2.0.5
+        version: 2.0.5
       '@types/node':
         specifier: ^18.16.8
         version: 18.16.8
@@ -2740,6 +2746,20 @@ packages:
       glob: 7.1.7
     dev: false
 
+  /@next/mdx@13.4.2-canary.5:
+    resolution: {integrity: sha512-8boHelMNrQT5ro8QcDTk+PvRRCN4ePSPme1LQJslgjVAV9pHgT+LMELAlVnmvvPIB+OjT+2GarhKxFH+LtPrbA==}
+    peerDependencies:
+      '@mdx-js/loader': '>=0.15.0'
+      '@mdx-js/react': '>=0.15.0'
+    peerDependenciesMeta:
+      '@mdx-js/loader':
+        optional: true
+      '@mdx-js/react':
+        optional: true
+    dependencies:
+      source-map: 0.7.4
+    dev: false
+
   /@next/swc-darwin-arm64@13.4.2:
     resolution: {integrity: sha512-6BBlqGu3ewgJflv9iLCwO1v1hqlecaIH2AotpKfVUEzUxuuDNJQZ2a4KLb4MBl8T9/vca1YuWhSqtbF6ZuUJJw==}
     engines: {node: '>= 10'}
@@ -4338,6 +4358,10 @@ packages:
     dependencies:
       '@types/node': 18.16.8
     dev: false
+
+  /@types/mdx@2.0.5:
+    resolution: {integrity: sha512-76CqzuD6Q7LC+AtbPqrvD9AqsN0k8bsYo2bM2J8pmNldP1aIPAbzUQ7QbobyXL4eLr1wK5x8FZFe8eF/ubRuBg==}
+    dev: true
 
   /@types/mime@3.0.1:
     resolution: {integrity: sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==}
