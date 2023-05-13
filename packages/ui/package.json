@@ -100,6 +100,10 @@
       "import": "./dist/sheet.mjs",
       "types": "./dist/sheet.d.ts"
     },
+    "./table": {
+      "import": "./dist/table.mjs",
+      "types": "./dist/table.d.ts"
+    },
     "./tabs": {
       "import": "./dist/tabs.mjs",
       "types": "./dist/tabs.d.ts"
@@ -160,6 +164,9 @@
       ],
       "select": [
         "dist/select.d.ts"
+      ],
+      "table": [
+        "dist/table.d.ts"
       ],
       "tabs": [
         "dist/tabs.d.ts"
