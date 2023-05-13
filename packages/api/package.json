@@ -13,8 +13,8 @@
   "dependencies": {
     "@aksar/db": "^0.1.0",
     "@clerk/nextjs": "^4.17.3",
-    "@trpc/client": "^10.25.0",
-    "@trpc/server": "^10.25.0",
+    "@trpc/client": "^10.26.0",
+    "@trpc/server": "^10.26.0",
     "superjson": "1.12.3",
     "zod": "^3.21.4"
   },
