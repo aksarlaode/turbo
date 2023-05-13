@@ -17,7 +17,7 @@
     "@aksar/db": "^0.1.0",
     "@aksar/tailwind-config": "^0.1.0",
     "@aksar/ui": "^0.1.0",
-    "@clerk/nextjs": "^4.17.1",
+    "@clerk/nextjs": "^4.17.3",
     "@t3-oss/env-nextjs": "^0.3.1",
     "@tanstack/react-query": "^4.29.5",
     "@trpc/client": "^10.25.0",
@@ -32,14 +32,14 @@
     "react-day-picker": "^8.7.1",
     "react-dom": "18.2.0",
     "react-wrap-balancer": "^0.4.1",
-    "recharts": "^2.5.0",
+    "recharts": "^2.6.2",
     "superjson": "1.12.3",
     "tailwindcss-animate": "^1.0.5",
     "zod": "^3.21.4"
   },
   "devDependencies": {
     "@aksar/eslint-config": "^0.1.0",
-    "@types/node": "^18.16.5",
+    "@types/node": "^18.16.8",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "autoprefixer": "^10.4.14",
@@ -47,6 +47,6 @@
     "eslint": "^8.40.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
-    "typescript": "^5.1.0-dev.20230508"
+    "typescript": "^5.1.0-dev.20230513"
   }
 }
