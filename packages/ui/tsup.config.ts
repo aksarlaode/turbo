@@ -25,6 +25,7 @@ const server = [
   "./src/button.tsx",
   "./src/icons.tsx",
   "./src/card.tsx",
+  "./src/table.tsx",
   "./src/toast.tsx",
 ];
 
